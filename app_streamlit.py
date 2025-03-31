@@ -1,10 +1,31 @@
 import streamlit as st
 import requests
+from requests.exceptions import RequestException
+
+def check_service(name, url):
+    try:
+        response = requests.get(url, timeout=2)
+        if response.status_code == 200:
+            return f"✅ {name} está activo"
+        else:
+            return f"⚠️ {name} responde pero no está OK (código {response.status_code})"
+    except RequestException:
+        return f"❌ {name} no responde"
 
 st.set_page_config(page_title="Clasificación de Cobertura Forestal", layout="centered")
 
 st.title("🌲 Predicción de Tipo de Cobertura Forestal")
 st.markdown("Esta aplicación permite ingresar datos y obtener predicciones usando el modelo entrenado.")
+
+st.markdown("### 🧭 Estado de los Servicios")
+
+col1, col2 = st.columns(2)
+with col1:
+    st.write(check_service("FastAPI", "http://api-inferencia:8000/docs"))
+    st.write(check_service("MLflow", "http://mlflow:5000"))
+with col2:
+    st.write(check_service("Airflow", "http://airflow-webserver:8080"))
+    st.write(check_service("MinIO", "http://minio:9000"))
 
 with st.form("form_prediccion"):
     st.subheader("📝 Ingrese los datos de entrada")
