@@ -181,7 +181,7 @@ services:
       - ./modelos:/app/modelos
     restart: on-failure
   
-    streamlit-ui:
+  streamlit-ui:
     build:
       context: .
       dockerfile: Dockerfile.streamlit
@@ -190,7 +190,7 @@ services:
     volumes:
       - ./modelos:/app/modelos
     depends_on:
-      - api-inferencia
+    - api-inferencia
 
 volumes:
   airflow_logs:
