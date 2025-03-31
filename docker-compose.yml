@@ -180,6 +180,17 @@ services:
     volumes:
       - ./modelos:/app/modelos
     restart: on-failure
+  
+    streamlit-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    ports:
+      - "8503:8503"
+    volumes:
+      - ./modelos:/app/modelos
+    depends_on:
+      - api-inferencia
 
 volumes:
   airflow_logs:
