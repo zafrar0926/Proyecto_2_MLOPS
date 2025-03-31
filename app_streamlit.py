@@ -2,31 +2,41 @@ import streamlit as st
 import requests
 from requests.exceptions import RequestException
 
-def check_service(name, url):
+# 👉 Esta línea debe ir justo después de los imports
+st.set_page_config(page_title="Clasificación de Cobertura Forestal", layout="centered")
+
+# Función para verificar el estado de servicios
+def check_service(name, url, allow_codes=[200]):
     try:
         response = requests.get(url, timeout=2)
-        if response.status_code == 200:
+        if response.status_code in allow_codes:
             return f"✅ {name} está activo"
         else:
             return f"⚠️ {name} responde pero no está OK (código {response.status_code})"
     except RequestException:
         return f"❌ {name} no responde"
 
-st.set_page_config(page_title="Clasificación de Cobertura Forestal", layout="centered")
-
+# 🧭 Título y descripción
 st.title("🌲 Predicción de Tipo de Cobertura Forestal")
 st.markdown("Esta aplicación permite ingresar datos y obtener predicciones usando el modelo entrenado.")
 
+# 🟢🔴 Estado de los servicios
 st.markdown("### 🧭 Estado de los Servicios")
 
+# Botón para refrescar la sección
+if st.button("🔄 Refrescar estado de servicios"):
+    st.rerun()
+
+# Mostrar estados
 col1, col2 = st.columns(2)
 with col1:
     st.write(check_service("FastAPI", "http://api-inferencia:8000/docs"))
     st.write(check_service("MLflow", "http://mlflow:5000"))
 with col2:
-    st.write(check_service("Airflow", "http://airflow-webserver:8080"))
-    st.write(check_service("MinIO", "http://minio:9000"))
+    st.write(check_service("Airflow", "http://airflow-webserver:8080/health", allow_codes=[200]))
+    st.write(check_service("MinIO", "http://minio:9000", allow_codes=[200, 403]))
 
+# 📝 Formulario de entrada
 with st.form("form_prediccion"):
     st.subheader("📝 Ingrese los datos de entrada")
     elevation = st.number_input("Elevación", value=2800)
@@ -44,6 +54,7 @@ with st.form("form_prediccion"):
 
     submitted = st.form_submit_button("🔮 Predecir")
 
+# 🔮 Predicción
 if submitted:
     entrada = {
         "Elevation": elevation,
