@@ -198,4 +198,3 @@ volumes:
   mysql_data:
   postgres-db-volume:
   minio_data:
-
