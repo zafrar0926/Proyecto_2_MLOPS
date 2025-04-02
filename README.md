@@ -111,6 +111,15 @@ Respuesta esperada:
 ---
 
 ## 🐳 Comandos útiles
+## 🛠️ Solución de problemas
+
+- **❗ Error de permisos en logs de Airflow**
+
+Si ves errores tipo Operation not permitted en los logs:
+  ```bash
+  mkdir -p ./airflow/logs
+  chmod -R 777 ./airflow/logs
+  ```
 
 - **Levantar todos los servicios**:
   ```bash
@@ -126,14 +135,6 @@ Respuesta esperada:
   ```bash
   sudo docker compose up --build -d api-inferencia
   ```
-## 🛠️ Solución de problemas
-
-- **❗ Error de permisos en logs de Airflow**
-
-Si ves errores tipo Operation not permitted en los logs:
-```bash
-chmod -R 777 ./airflow/logs
-```
 
 Esto otorga permisos de escritura al contenedor de Airflow sobre la carpeta de logs montada desde tu sistema.
 ---
