@@ -104,7 +104,7 @@ curl -X POST http://localhost:8000/predecir \
 Respuesta esperada:
 ```json
 {
-  "cover_type_predicho": 3
+  "cover_type_predicho": 1
 }
 ```
 
