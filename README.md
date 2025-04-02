@@ -16,6 +16,8 @@ mlops_proyecto2/
 ├── mlflow/                  # Carpeta para almacenar artefactos de MLflow
 ├── app_inferencia.py        # API FastAPI para servir el modelo
 ├── Dockerfile               # Dockerfile para FastAPI
+├── app_streamlit.py        # API streamlit para servir la UI
+├── Dockerfile.streamlit    # Dockerfile para streamlit
 └── docker-compose.yml       # Orquestación de servicios
 ```
 
@@ -29,6 +31,7 @@ Con `docker-compose up -d` se crean los siguientes servicios:
 - **MLflow + MySQL (backend store)**
 - **MinIO (artifact store para MLflow)**
 - **FastAPI (API para inferencia del modelo)**
+- **Streamlit (Interfaz para API )**
 
 ---
 
@@ -123,7 +126,16 @@ Respuesta esperada:
   ```bash
   sudo docker compose up --build -d api-inferencia
   ```
+## 🛠️ Solución de problemas
 
+- **❗ Error de permisos en logs de Airflow**
+
+Si ves errores tipo Operation not permitted en los logs:
+```bash
+chmod -R 777 ./airflow/logs
+```
+
+Esto otorga permisos de escritura al contenedor de Airflow sobre la carpeta de logs montada desde tu sistema.
 ---
 
 ## 📌 Notas adicionales
@@ -144,4 +156,4 @@ Respuesta esperada:
 
 ---
 
-Hecho con 💻 por Edwin A. Caro, Andres F. Matallana, Santiago Zafra R.
+Hecho por Edwin A. Caro, Andres F. Matallana, Santiago Zafra R
