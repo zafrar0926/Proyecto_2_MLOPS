@@ -1,0 +1,18 @@
+# Imagen base liviana con Python 3.9 (para ser consistente con el resto del stack)
+FROM python:3.9-slim
+
+# Crear directorio de trabajo
+WORKDIR /locust
+
+# Copiar archivos necesarios
+COPY locustfile.py .
+COPY requirements-locust.txt .
+
+# Instalar dependencias
+RUN pip install --no-cache-dir -r requirements-locust.txt
+
+# Exponer puerto de la interfaz web de Locust
+EXPOSE 8089
+
+# Comando de inicio
+CMD ["locust", "-f", "locustfile.py"]

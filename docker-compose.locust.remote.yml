@@ -1,0 +1,27 @@
+services:
+  api-inferencia:
+    image: zafrar09/app-inferencia:latest
+    deploy:
+      replicas: 3
+      resources:
+        limits:
+          cpus: "0.2"
+          memory: "512M"
+    # ❌ No expongas directamente el puerto 8000 en todas las réplicas
+    # ports:
+    #   - "8000:8000"
+    expose:
+      - "8000"  # solo lo hace visible dentro de la red de Docker
+
+  locust:
+    build:
+      context: .
+      dockerfile: Dockerfile.locust
+    container_name: locust
+    ports:
+      - "8089:8089"
+    depends_on:
+      - api-inferencia
+    environment:
+      - LOCUST_HOST=http://api-inferencia:8000
+
