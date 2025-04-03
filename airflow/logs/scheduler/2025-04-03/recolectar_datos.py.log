@@ -4205,3 +4205,115 @@
 [2025-04-03T05:05:13.199+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:05:13.198+0000] {dag.py:2907} INFO - Sync 1 DAGs
 [2025-04-03T05:05:13.242+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:05:13.242+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
 [2025-04-03T05:05:13.278+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.218 seconds
+[2025-04-03T05:05:43.449+0000] {processor.py:157} INFO - Started process (PID=16903) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:05:43.451+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:05:43.457+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:05:43.456+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:05:43.483+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:05:43.541+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:05:43.540+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:05:43.582+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:05:43.582+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:05:43.621+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.180 seconds
+[2025-04-03T05:06:13.994+0000] {processor.py:157} INFO - Started process (PID=16909) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:06:13.997+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:06:14.008+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:06:14.007+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:06:14.063+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:06:14.148+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:06:14.148+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:06:14.203+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:06:14.203+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:06:14.250+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.278 seconds
+[2025-04-03T05:06:44.503+0000] {processor.py:157} INFO - Started process (PID=16915) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:06:44.506+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:06:44.518+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:06:44.513+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:06:44.568+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:06:44.704+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:06:44.703+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:06:44.760+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:06:44.760+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:06:44.802+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.314 seconds
+[2025-04-03T05:07:15.065+0000] {processor.py:157} INFO - Started process (PID=16921) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:07:15.069+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:07:15.073+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:07:15.073+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:07:15.103+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:07:15.202+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:07:15.202+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:07:15.270+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:07:15.269+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:07:15.321+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.265 seconds
+[2025-04-03T05:07:45.689+0000] {processor.py:157} INFO - Started process (PID=16927) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:07:45.697+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:07:45.709+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:07:45.709+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:07:45.763+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:07:45.897+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:07:45.897+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:07:45.973+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:07:45.973+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:07:46.027+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.397 seconds
+[2025-04-03T05:08:16.389+0000] {processor.py:157} INFO - Started process (PID=16928) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:08:16.391+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:08:16.397+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:08:16.396+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:08:16.426+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:08:16.500+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:08:16.499+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:08:16.559+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:08:16.559+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:08:16.589+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.210 seconds
+[2025-04-03T05:08:46.902+0000] {processor.py:157} INFO - Started process (PID=16934) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:08:46.904+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:08:46.912+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:08:46.911+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:08:46.940+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:08:47.020+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:08:47.020+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:08:47.075+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:08:47.075+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:08:47.113+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.220 seconds
+[2025-04-03T05:09:17.447+0000] {processor.py:157} INFO - Started process (PID=16940) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:09:17.451+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:09:17.462+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:09:17.460+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:09:17.498+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:09:17.601+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:09:17.601+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:09:17.667+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:09:17.667+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:09:17.709+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.284 seconds
+[2025-04-03T05:09:48.085+0000] {processor.py:157} INFO - Started process (PID=16946) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:09:48.088+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:09:48.097+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:09:48.096+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:09:48.130+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:09:48.207+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:09:48.206+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:09:48.262+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:09:48.262+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:09:48.296+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.221 seconds
+[2025-04-03T05:10:18.653+0000] {processor.py:157} INFO - Started process (PID=16952) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:10:18.656+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:10:18.663+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:10:18.662+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:10:18.691+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:10:18.772+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:10:18.772+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:10:18.824+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:10:18.823+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:10:18.853+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.210 seconds
+[2025-04-03T05:10:48.969+0000] {processor.py:157} INFO - Started process (PID=16958) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:10:48.971+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:10:48.978+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:10:48.977+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:10:49.008+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:10:49.088+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:10:49.088+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:10:49.140+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:10:49.139+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:10:49.178+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.226 seconds
+[2025-04-03T05:11:19.531+0000] {processor.py:157} INFO - Started process (PID=16959) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:11:19.537+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:11:19.549+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:11:19.546+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:11:19.618+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:11:19.744+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:11:19.744+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:11:19.816+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:11:19.816+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:11:19.858+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.339 seconds
+[2025-04-03T05:11:50.193+0000] {processor.py:157} INFO - Started process (PID=16965) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:11:50.196+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:11:50.203+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:11:50.202+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:11:50.241+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:11:50.327+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:11:50.327+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:11:50.397+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:11:50.397+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:11:50.446+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.262 seconds
+[2025-04-03T05:12:20.780+0000] {processor.py:157} INFO - Started process (PID=16971) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:12:20.783+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:12:20.790+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:12:20.789+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:12:20.825+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:12:20.958+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:12:20.958+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:12:21.015+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:12:21.014+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:12:21.061+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.294 seconds
+[2025-04-03T05:12:51.277+0000] {processor.py:157} INFO - Started process (PID=16977) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:12:51.279+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:12:51.284+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:12:51.284+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:12:51.313+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:12:51.383+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:12:51.383+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:12:51.426+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:12:51.425+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:12:51.460+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.191 seconds
+[2025-04-03T05:13:21.811+0000] {processor.py:157} INFO - Started process (PID=16983) to work on /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:13:21.813+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/recolectar_datos.py for tasks to queue
+[2025-04-03T05:13:21.818+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:13:21.818+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:13:21.844+0000] {processor.py:839} INFO - DAG(s) dict_keys(['recolectar_datos_api']) retrieved from /opt/airflow/dags/recolectar_datos.py
+[2025-04-03T05:13:21.924+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:13:21.924+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2025-04-03T05:13:21.978+0000] {logging_mixin.py:151} INFO - [2025-04-03T05:13:21.977+0000] {dag.py:3677} INFO - Setting next_dagrun for recolectar_datos_api to 2025-04-03T04:00:00+00:00, run_after=2025-04-03T05:00:00+00:00
+[2025-04-03T05:13:22.027+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/recolectar_datos.py took 0.224 seconds

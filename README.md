@@ -146,12 +146,21 @@ El contenedor no es capaz de manejar 10.000 usuarios agregando 500 cada vez con 
           cpus: "0.25"
           memory: "128M"
 
+Un escalamiento vertical en si mismo como el incremento de memoria no es funcional y al API tampoco puede manejar la volumetria de usuarios.
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.2"
+          memory: "512M"
+
 La minima configuracion que fue efectiva es:
       replicas: 3
       resources:
         limits:
           cpus: "0.2"
           memory: "512M"
+
+Lo que muestra que el escalamiento horizontal optimiza el manejo de un alto numero de usuarios.
 
 Se ve asi:
 ![alt text](image-2.png)
