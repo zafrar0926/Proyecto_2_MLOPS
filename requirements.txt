@@ -8,3 +8,8 @@ dill
 pandas 
 streamlit
 requests
+pymysql
+requests
+pandas
+scikit-learn
+mlflow
